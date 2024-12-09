@@ -1,0 +1,266 @@
+header  {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+header .logo h1 {
+    margin: 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* General Styling for Main Content */
+main {
+    padding: 20px;
+    margin-top: 80px; /* Adjust this value to give space below the header */
+}
+
+h2, h3, h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+/* Contact Us Section */
+.contact-us-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-us-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-us-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Image Map */
+.service-map {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 0 auto 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f4f4f4;
+}
+
+/* Contact Form Styling (Same as Table) */
+.contact-form {
+    width: 70%; /* Reduced width to make it smaller */
+    max-width: 500px; /* Limits the form's width */
+    margin: 20px auto; /* Centers the form */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(8, 0, 8);
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%; /* Ensure full-width for inputs */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e65c00;
+}
+
+
+/* Image Map Section */
+.image-map-section {
+    margin-bottom: 40px;
+}
+
+.service-map {
+   /* Image Map */ 
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Ensures the map doesn't get too wide */
+    border-radius: 8px; /* Adds rounded corners */
+    margin: 0 auto 20px; /* Centers the map horizontally and adds space below it */
+    display: block; /* Ensures the image behaves like a block element (for centering) */
+}
+
+.service-map:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Table Section */
+.tabular-data-section table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 40px; /* Centers the table and adds spacing below */
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 1.1rem; /* Increases table text size */
+}
+
+.tabular-data-section th, .tabular-data-section td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabular-data-section th {
+    background-color: #ff6600;
+    color: white;
+    text-align: center; /* Centers table headers */
+}
+
+.tabular-data-section tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.tabular-data-section tr:hover {
+    background-color: #ffebcc; /* Light orange highlight on hover */
+}
+/* Styled Table */
+.tabular-data-section table {
+    max-width: 600px;
+    margin: 20px auto; /* Centers the table */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    border-collapse: collapse; /* Removes gaps between table cells */
+}
+
+.tabular-data-section th, 
+.tabular-data-section td {
+    padding: 10px;
+    text-align: left; /* Left-aligns content */
+    border-bottom: 1px solid #ccc; /* Adds lines between rows */
+}
+
+.tabular-data-section th {
+    font-weight: bold;
+    background-color: #ff6600;
+    color: white;
+    text-align: center; /* Centers header text */
+    border-radius: 8px 8px 0 0; /* Rounds the top corners */
+}
+
+.tabular-data-section td {
+    font-size: 1rem;
+    color: rgb(8, 0, 8);
+}
+
+.tabular-data-section tr:hover {
+    background-color: #ffebcc; /* Light orange highlight on hover */
+}
+
+/* Widgets Section */
+
+
+.widgets-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between widgets */
+    margin-bottom: 40px;
+}
+
+.widget iframe {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds hover effects */
+}
+
+.widget iframe:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+} 
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+   
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title> 
+    <link rel="stylesheet" href="aboutstyle.css"
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Kent Roofing</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="estimate.html">Instant Estimate</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+       
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>Kent Roofing has been providing exceptional roofing services for over 20 years. Our mission is to deliver reliable, high-quality roofing solutions to residential and commercial clients across the region.</p>
+        </section>
+
+        <!-- Image Map -->
+        <section class="image-map-section">
+            <h3>Our Service Areas</h3>
+            <img src="State-Roofing-Service-Area.jpg" alt="Service Area Map" usemap="#serviceMap" class="service-map">
+
+            <map name="serviceMap">
+                <!-- Hotspot 1: Link to Internal Page -->
+                <area shape="rect" coords="50,50,150,150" href="services.html" alt="View Services">
+                <!-- Hotspot 2: Link to External Website -->
+                <area shape="circle" coords="300,200,50" href="https://google.com/maps" target="_blank" alt="View on Google Maps">
+            </map>
+        </section>
+
+        <!-- Tabular Data -->
+        <section class="tabular-data-section">
+            <h3>Our Achievements</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Milestone</th>
+                        <th>Projects Completed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td>Best Roofing Service Award</td>
+                        <td>150+</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>Expanded to New Regions</td>
+                        <td>130+</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>100% Customer Satisfaction Achieved</td>
+                        <td>120+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Widgets -->
+            <!-- Google Map Embed -->
+            <div class="widget">
+                <h4>Our Office Location</h4>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.510197131319!2d-122.33516708437034!3d47.60620977918464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c681e1111%3A0xafa488a2dd8f3e3b!2sSeattle%2C%20WA%2C%20USA!5e0!3m2!1sen!2sus!4v1687389112958!5m2!1sen!2sus" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+           <!-- YouTube Embed -->
+<div class="widget">
+    <h4>Learn About Our Services</h4>
+    <iframe 
+    width="100%" height="250" 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kent Roofing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
